@@ -1,0 +1,25 @@
+/* Global Selector */
+
+* {
+    margin: 0;
+}
+
+/* ID Selector */
+
+#container {
+    width: 200px;
+}
+
+/* Class Selector */
+.m-4 {
+    margin: 40px;
+}
+
+/* Grouping Selectors */
+
+h1, h2 {
+    color: blue;
+    font-size: 60px;
+    background: gray;
+}
+
