@@ -1,0 +1,12 @@
+
+/*  Adição de CSS - @import */
+@import 'https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap';
+
+h1 {
+  margin: 0;
+  font-family: Kiwi+Maru
+};
+
+div, span {
+  margin-left: 0%;
+}
