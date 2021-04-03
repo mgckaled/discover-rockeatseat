@@ -1,0 +1,38 @@
+/* Origem de Estilo */
+
+/* Seletor universão -> Força 0, mesmo na última posição do arquivo, esse seletor não
+será prioridade, pois há a cascata considera a origem e a especificidade */
+
+* {
+  color: green;
+}
+
+/* Element type (h1, span, div, ect.).-> Força 1 */
+h1 {
+  color:red;
+}
+
+h1 {
+  font-size: 12px;
+}
+
+/* Classes -> Força 10 */
+.title {
+  color: black;
+}
+
+/* ID Selector -> Força 100 */
+#part-one {
+  margin: 0%;
+}
+
+/* Element tag + Class + ID -> Força 111 */
+h2.title#first-title {
+  color: blue;
+}
+
+/* Regra !important - Prioridade máxima, pois quebra todas as regras */
+p {
+  color: azure !important;
+}
+
