@@ -1,0 +1,26 @@
+<!-- AUDIO
+
+<audio>
+
+  - src: URI do recurso
+  - controls: exibe a estrutura de reprodução
+  - loop: repetir play (depende do navegador)
+  - muted: se vai começar sem som
+  - autoplay: play automático
+
+  - se não funciona?
+    - fallback content
+
+  - source
+    - src: URI do recurso
+    - type: especificar formato (agiliza busca por formato adequado)
+
+  - sobre serviços de terceiro (outro tipo de tag): não é necessário consumir o servidor
+
+-->
+
+<!-- https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content -->
+<audio controls autoplay muted loop>
+  <source src="./assets-example/viper.mp3" type="audio/mp3">
+  <source src="./assets-example/viper.ogg" type="audio/ogg">
+</audio>

@@ -1,0 +1,42 @@
+<!-- VIDEO
+
+  - src: URI do recurso
+  - controls: exibe a estrutura de reprodução
+  - width e height: altura e largura
+  - preload
+    - metadata: carregar o básico
+    - auto: carregar de todo o vídeo ao abrir a página
+    - none: não carregar antes de clicar no play
+  - autoplay: play automático
+  - loop: repetir play (depende do navegador)
+  - muted: se vai começar sem som
+  - poster: incluir logo ou imagem a ser exibida antes do play
+
+  - se não funciona?
+    - fallback content
+
+  - source
+    - src: URI do recurso
+    - type: especificar formato (agiliza busca por formato adequado)
+
+  - sobre serviços de terceiro
+
+-->
+
+<!-- https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content -->
+<!-- https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Video -->
+<!-- https://developer.mozilla.org/pt-BR/docs/Web/Media/Formats -->
+
+<video
+	controls
+	width="500"
+	height="400"
+	loop
+	autoplay
+	preload="metadata"
+	muted
+	poster="./icon.png"
+>
+	<source src="./assets-example/rocket.mp4" type="video/mp4" />
+	<p>Este browser não suporta video, baixe-o aqui</p>
+</video>

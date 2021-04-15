@@ -1,0 +1,19 @@
+{
+	"name": "nodejs",
+	"version": "1.0.0",
+	"description": "projeto discover",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"keywords": [
+		"learning",
+		"nodejs"
+	],
+	"author": "dev.mgck",
+	"license": "MIT",
+	"dependencies": {
+		"cfonts": "^2.9.1",
+		"moment": "^2.29.1"
+	}
+}
