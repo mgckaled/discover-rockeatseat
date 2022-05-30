@@ -2,7 +2,7 @@
 
 Conecta um elemento ao HTML com o CSS
 
-## Tipos:
+## Tipos
 
 * Global Selector ` * ` -> Seleção de todas as tags HTML
 * Element/Type selector ` h1, h2, p, div `

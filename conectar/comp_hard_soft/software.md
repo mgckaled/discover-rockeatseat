@@ -35,7 +35,11 @@ Um *sistema operacional* é responsável pelo gerenciamento de todo o *hardware*
 <br>
 
 # PROGRAMAS
+- Software -> programa de computador
+- Program -> programa de computador ou aplicativo
 
+Um programa é um conjunto de instrunções que descrevem uma tarefa e/ou trabalho específico no seu computador. São ferramentas desenhadas para o usuário realizar ações
+- Ex: browser, Photoshop, Word, 
 
 
 

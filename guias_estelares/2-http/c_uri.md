@@ -1,6 +1,7 @@
 # URI - *Uniform Resource Identifier*
 
-### **Conceito**: 
+## Conceito
+
 - Identificar um recurso
 - Nome ou Localização
 - Exemplo:
@@ -8,7 +9,8 @@
   - Seu nome
   - sua Localização
   
-### **Resource**
+### Resource
+
 - O alvo do pedido HTTP
 - Qualquer coisa identificável / entidade:
   - Digital (ex: email via protocolo *mailto:*)
@@ -40,7 +42,9 @@
 
 
 ### **Name**
+
 URN
+
 - *Uniform Resource Name*
 - Exemplos:
   - urn:isbn:0451450523 (identificação universal de um livro)

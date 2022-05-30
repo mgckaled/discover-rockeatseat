@@ -27,12 +27,14 @@ CONCEITO:
 ## 2. Cliente
 
 ***Quem é o cliente?***
+
 - User-Agent:
   - Browser
   - cURL
 - Entidade que dá início a comunicação
 
 **Pedidos - Ações de clientes**:
+
 - GET
 - POST
 - PUT
@@ -41,6 +43,7 @@ CONCEITO:
 ----
 
 ## 3. Servidor
+
 - Se apresenta como uma máquina
 - Preparado para ouvir e processar
 - Vários servidores em um computador ou vários computadores representado um servidor
