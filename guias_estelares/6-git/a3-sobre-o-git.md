@@ -9,4 +9,3 @@
   - Ramificações: ***branch*** (universos paralelos)
   - Vários devs no mesmo projeto
   - Análise e resolução de conflitos
-

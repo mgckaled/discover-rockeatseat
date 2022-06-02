@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Discover - Trilha Fundamentar - DOM</title>
+		<style>
+
+			.active{
+				color: red;
+	
+			}
+
+			.green {
+				background-color: green;
+			}
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1 id="blog-title" onclick="print()">Meu blog</h1>
+		</header>
+		<div>
+			<p class="one"></p>
+			<p class="one"></p>
+			<p class="text-1" ondblclick="dbprint()">texto 1</p>
+			<p class="text-2" onmouseover="print()">texto 2</p>
+			<input
+				id="input-1"
+				type="text"
+				name="name"
+				placeholder="inserir seu nome:"
+			/>
+			<input
+				id="input-2"
+				type="text"
+				value="preenchido"
+				placeholder="campo preenchido"
+			/>
+			<section class="section"></section>
+		</div>
+	</body>
+	<script src="./x-dom-index.js"></script>
+</html>

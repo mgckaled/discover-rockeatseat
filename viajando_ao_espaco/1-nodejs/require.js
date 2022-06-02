@@ -1,15 +1,19 @@
 //módulos nativos
 
-// require -> uma forma de chamar módulos
-// const path = require('path')
-// Exibir nome do arquivo (a_require.js)
-// console.log(path.basename(__filename));
-// console.log(path.basename("Users/starter/docs.js"));/
+// require -> uma forma de chamar módulos nativos ou de terceiros
+// path é um objeto com várias propriedades
+const path = require('path')
+console.log(path)
+console.log(path.basename(__filename))
+console.log(path.basename(__dirname))
 
 // Meus módulos
-//const myModule = require('./exports')
+const myModule = require('./exports')
+console.log(myModule)
+
+
 //myModule.getFlag("teste")//
 
-import getFlag from './exports';
+//import getFlag from './exports';
 
-console.log(`Oi ${getFlag('--name')}. ${getFlag('--greting')}`);
+//console.log(`Oi ${getFlag('--name')}. ${getFlag('--greting')}`);

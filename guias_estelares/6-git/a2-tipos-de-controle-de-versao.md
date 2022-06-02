@@ -15,7 +15,7 @@
 - Formato especial no disco
 - Recriar como qualquer arquivo se parecia em qualquer ponto no tempo, adicionande-se todas as alterações do arquivo.
 
-> <span style="color:darkorange">E se você precisar colaborar com desenvolvedores em outros sistemas?</span>
+>E se você precisar colaborar com desenvolvedores em outros sistemas?
 
 ## Sistemas Centralizados
 
@@ -24,7 +24,7 @@ Exemplo: CSV, Subversion, Perforce
 - Um único servidor que mantém todos os arquivos de controle de versão
 - Vários clietes usam arquivos a partir desse lugar central
 
-*Por muitos anos, este têm sido o padrão para controle de versão*
+>Por muitos anos, este têm sido o padrão para controle de versão
 
 ### Vantagens sobre VCSs locais
 
@@ -38,7 +38,7 @@ Exemplo: CSV, Subversion, Perforce
 - Se o disco rígido do banco central for corrompido, perde-se absolutamente tudo
 - Sistemas VCSs locais estão sujeitos as mesmas desvantagens
   
-> <span style="color:darkorange">Sempre que você tem toda a história de um mesmo projeto em um único banco, há sempre o risco de se perder tudo!</span>
+>Sempre que você tem toda a história de um mesmo projeto em um único banco, há sempre o risco de se perder tudo!
 
 ## Sistemas Distribuídos
 
@@ -48,3 +48,4 @@ Exemplo: Git, Mercurial, Bazzar, Darcs
 - Se qualquer servidor falhar, e esses sistemas estiverem colaborando por meio dele, qualquer um dos sistemas poderá ser copiado de volta ao servidor
 - Cada clone é de fato um backup completo de todos os dados
 - Clientes usam o estado mais recente do arquivo
+  

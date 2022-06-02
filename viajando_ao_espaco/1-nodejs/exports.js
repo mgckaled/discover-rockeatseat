@@ -1,9 +1,1 @@
-
-function getFlag(flag) {
-
-  const index = process.argv.indexOf(flag) + 1
-  return process.argv[index]
-
-}
-
-export default getFlag;
+module.exports = "enviando dados do meu módulo"

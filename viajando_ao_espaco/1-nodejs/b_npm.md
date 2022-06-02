@@ -1,6 +1,6 @@
 # NPM - Node Package Manager
 
-__Glossary: Dependencies, Packages, Modules__
+## Glossary: Dependencies, Packages, Modules
 
 - [X] Verificar se temos o _npm_ instalado `npm -v` ou `npm --version`.
 - [X] Criar nossso próprio pacote: `npm init` ou `npm init -y` para responder sim para todas as perguntas.
@@ -25,4 +25,3 @@ __Glossary: Dependencies, Packages, Modules__
   - Exibir um resumo das versões dos módulos: `npm outdated`
   - Atualizar todos os módulos: `npm upgrade`
   - Atualizar ou instalar a última versão estável: `npm i <module>@latest`
-
