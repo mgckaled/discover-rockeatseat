@@ -42,4 +42,25 @@ As classes na orientação orientada a objetos funcionam como um molde para obje
 ### Encapsulamento
 
 * Colocar em um capsula
-* Agrupamento de funções 
+* Agrupamento de funções
+
+### Heranças
+
+* Pais e Filhos
+* Objstos podem herdar, ou estender, caracteríticas bases
+* Uma cópia de atributos e métodos de outra classe
+
+### Polimorfismo
+
+Quando um objeto estende de outro (herança) talvez haja a necessidade de reescrever característias (atributos e métodos) nesse novo objeto
+
+Recriaremos então um método (ou mais) da classe herdada
+
+Polimorfismo significa muitas formas.
+
+## Abstração
+
+Template ou identidade de uma classe que será construida no futuro
+
+* Atributos e métodos podem ser criados na classe da Abstração (Superclasse) MAS...
+* A implementação dos métodos e atributos só poderá ser feita na classe que irá herdar essa abstração

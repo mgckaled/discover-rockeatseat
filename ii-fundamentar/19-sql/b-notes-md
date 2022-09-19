@@ -1,0 +1,46 @@
+# Notas importantes
+
+## Tipos de dados
+
+- **text** - campos com dados _string_
+- **number** - campo com informações com números
+- **date** - campo que guarda números e traços, mais conhecido como `DATATIME`
+- **primary-key** - campo com identificador único e universal, que contém informações únicas.
+
+### Regras para escrever nome de tabelas e de campos
+
+1. Deve começar por uma letra do alfabeto
+2. Os caracteres seguintes não são permitidos: `() + - / * " ; = & | # < > ^ ' {} %`
+3. Não pode conter espaços
+
+## Comando SELETCT
+
+**Função**: buscar informações dentro do banco de dados.
+
+- `*` repredenta todos os dados da tabela
+- `FROM` compando que indica de qual tabela as informações serão buscadas
+- `<nome_do_campo>` cacteres de especificação de campos. A busca irá trazer a mesma ordem dos campos digitados Ex: `SELECT nome responsavel FROM aluno`
+- `WHERE / LIKE` - comando de especificação de seleção de dados:
+  - ex1: `SELECT * FROM aluno WHERE matricula = 1`
+  - ex2: `SELECT * FROM aluno WHERE nome LIKE "
+
+## Operadores relacionais
+
+- **`=`, Igual**
+- **`LIKE`**
+- **`>`, Maior que**
+- **`<`, Menor que**
+- **`>=`, Maior ou igual**
+- **`<=`, Menor ou igual**
+- **`<>`, Não igual a**
+- **`=`, Igual**
+- **`=`, Igual**
+- **`=`, Igual**
+
+## Operadores Matemáticos
+
+- `+` - operador de adição
+- `-` - operador de subtração
+- `*` - operador de multiplicação
+- `/` - operador de divisão
+- `%` - operador de modulação

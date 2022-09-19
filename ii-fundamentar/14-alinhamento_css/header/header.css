@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+}
+
+header {
+	padding: 4rem;
+	background: lightgray;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	gap: 0.8rem;
+}
